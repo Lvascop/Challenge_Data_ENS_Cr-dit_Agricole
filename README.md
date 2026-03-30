@@ -1,4 +1,4 @@
-# Challenge_Data_ENS_Cr-dit_Agricole
+# Challenge_Data_ENS_Credit_Agricole
 
 # Hackathon CAA - Pipeline complet de modélisation du risque
 
