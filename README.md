@@ -1,4 +1,4 @@
-# Hackathon CAA - Prédiction de la charge assurance
+# Hackathon CAA - Prédiction de la charge assurance - GROUPE 7 - LMF_VPBB
 
 Ce repository contient un pipeline data science complet pour prédire `CHARGE` à partir de données contrat/sinistre.
 
