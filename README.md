@@ -64,24 +64,6 @@ Le notebook est organisé en blocs : modèles décomposés actuariels, modèles 
 Entrées principales : datasets `train_advanced_fe` et `test_advanced_fe` (chemins Databricks présents dans le notebook).  
 Sortie : fichiers de soumission `submission_*.csv`.
 
-### Notebooks d'archive (`old_vesrion/`)
-
-**`old_vesrion/models.ipynb`**  
-Objectif : proposer une version antérieure de la décomposition actuarielle avec traitement de la censure, estimation de la sévérité et reconstruction de `CHARGE` via `FREQ x CM x ANNEE_ASSURANCE`.  
-Sortie principale : `test_predictions_decomposition.csv`.
-
-**`old_vesrion/final_project.ipynb`**  
-Objectif : dérouler un pipeline historique de pricing MRH, de l'EDA à la prédiction finale, en comparant modèles fréquence/coût moyen et approche Tweedie directe sur la charge.  
-Sorties principales : `test_output_predictions.csv`, `test_targets_only.csv`, `test_tweedie_charge_predictions.csv`.
-
-**`old_vesrion/extremes_augmentation.ipynb`**  
-Objectif : expérimenter l'augmentation des extrêmes après diagnostic EVT, via un GAN univarié pour générer des sinistres graves synthétiques.  
-Sorties principales : `synthetic_extremes_gan.csv`, `extreme_augmented_dataset.csv`.
-
-**`old_vesrion/ISUP_RiskMetricsExtremes_C2.ipynb`**  
-Objectif : fournir un support de cours/recherche (ISUP) sur la simulation des risques extrêmes avec modèles génératifs (GAN), illustré sur données crypto.  
-Sortie : notebook pédagogique, hors pipeline de production du projet.
-
 ## Exécution recommandée
 
 Ordre de reproduction du pipeline principal :
